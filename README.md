@@ -15,6 +15,27 @@ The dashboard is fully interactive, utilizing **Country** and **Year** parameter
 - **Sales by Age Group and Product Sub-category**: A packed bubble chart illustrating sales distribution across age demographics (Youth, Young Adults, Adults, Seniors).
 - **Sales by Country**: A geographic map detailing sales density across major operating regions (Australia, Canada, France, Germany, United Kingdom, United States).
 
+## Dataset (Sales.xlsx)
+Below is a breakdown of the core columns available in the dataset used to build the dashboard:
+
+| Column Name | Description |
+| :--- | :--- |
+| **Date / Year** | The date and year the transaction occurred (used for dynamic time-period filtering). |
+| **Customer Age** | The age of the purchasing customer. |
+| **Age Group** | Categorized demographic group of the customer (Youth, Young Adults, Adults, Seniors). |
+| **Customer Gender** | The gender of the customer (Male, Female). |
+| **Country** | The geographical country where the sale was made (e.g., Australia, Canada, US). |
+| **State / Region** | The geographical state or province of the transaction. |
+| **Product Category** | The broad classification of the product (Accessories, Bikes, Clothing). |
+| **Sub-Category** | The detailed grouping of products (e.g., Water Bottles, Patch Kits, Tire Tubes). |
+| **Product** | The specific name of the item purchased. |
+| **Order Quantity** | The total number of units bought in a single transaction. |
+| **Unit Cost** | The base cost to manufacture or acquire one unit of the item. |
+| **Unit Price** | The standard selling price per unit. |
+| **Revenue** | Total revenue generated from the transaction. |
+| **Cost** | Total cost associated with the transaction. |
+| **Profit** | The net profit realized from the sale (Revenue - Cost). |
+
 ## Tasks Performed
 - **Data Connection & Preparation**: Connected the raw dataset (**Sales.xlsx**) to Tableau, ensuring appropriate data types and geographic roles were accurately established before analysis.
 - **Calculated Fields**: Developed custom formulas to extract specific Key Performance Indicators (KPIs), notably the Year-over-Year (YoY) percentage change for dynamic time-period comparisons.
